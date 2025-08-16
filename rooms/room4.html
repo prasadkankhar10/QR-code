@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI/ML Lab details." />
+  <title>AI/ML Lab – Room 202</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="brand">
+        <img src="../assets/images/logo.png" alt="Department Logo" class="brand-logo" />
+        <span class="brand-name">Department of Computer Science</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="../index.html">Home</a> · <span>AI/ML Lab</span>
+      </div>
+
+      <div class="room-header">
+        <h1 class="room-title">AI/ML Lab <span class="badge">Room 202</span></h1>
+        <p class="room-meta">Faculty in charge: <strong>Dr. Priya Rao</strong> · Capacity: <strong>32</strong></p>
+      </div>
+
+      <div class="room-layout">
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Equipment</h2>
+          </div>
+          <div class="panel-body">
+            <ul class="list">
+              <li>Workstations with GPUs</li>
+              <li>Python, R, and ML libraries</li>
+              <li>High-speed internet</li>
+              <li>Smart display</li>
+            </ul>
+          </div>
+        </section>
+
+        <aside class="panel">
+          <div class="panel-header">
+            <h2>Timetable</h2>
+          </div>
+          <div class="panel-body">
+            <img src="../assets/images/room4/timetable.png" alt="AI/ML Lab Timetable" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder small',textContent:'Upload timetable to assets/images/room4/'}))"/>
+          </div>
+        </aside>
+      </div>
+
+      <section class="panel" style="margin-top:18px;">
+        <div class="panel-header">
+          <h2>Gallery</h2>
+        </div>
+        <div class="panel-body">
+          <div class="gallery">
+            <img src="../assets/images/room4/photo1.jpg" alt="AI/ML Lab Photo 1" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'photo1.jpg placeholder'}))"/>
+            <img src="../assets/images/room4/photo2.jpg" alt="AI/ML Lab Photo 2" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'photo2.jpg placeholder'}))"/>
+            <img src="../assets/images/room4/photo3.jpg" alt="AI/ML Lab Photo 3" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'photo3.jpg placeholder'}))"/>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" style="margin-top:18px;">
+        <div class="panel-header">
+          <h2>Notes</h2>
+        </div>
+        <div class="panel-body">
+          <p class="muted">Consider adding links to datasets and project repositories.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Department of Computer Science. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

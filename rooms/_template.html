@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Room details and facilities." />
+  <title>Room – Template</title>
+  <!-- Swap to Open Sans by changing the Google Fonts link if preferred -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="brand">
+        <img src="../assets/images/logo.png" alt="Department Logo" class="brand-logo" />
+        <span class="brand-name">Department of Computer Science</span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <!-- Add optional links -->
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="../index.html">Home</a> · <span>Room Name</span>
+      </div>
+
+      <div class="room-header">
+        <!-- Replace Room Name and Number below -->
+        <h1 class="room-title">Room Name <span class="badge">Room XXX</span></h1>
+        <p class="room-meta">Faculty in charge: <strong>Dr. Jane Doe</strong> · Capacity: <strong>40</strong></p>
+      </div>
+
+      <div class="room-layout">
+        <!-- Left column: details and gallery -->
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Equipment</h2>
+          </div>
+          <div class="panel-body">
+            <!-- Replace items with your real equipment list -->
+            <ul class="list">
+              <li>Desktop PCs with IDEs installed</li>
+              <li>Projector and audio system</li>
+              <li>Wi‑Fi and LAN connectivity</li>
+              <li>Whiteboard and markers</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Right column: timetable and quick info -->
+        <aside class="panel">
+          <div class="panel-header">
+            <h2>Timetable</h2>
+          </div>
+          <div class="panel-body">
+            <!-- Replace this placeholder with timetable.png/jpg in assets/images/roomX/ -->
+            <div class="placeholder small">Upload timetable image to <em>assets/images/roomX/</em></div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="panel" style="margin-top:18px;">
+        <div class="panel-header">
+          <h2>Gallery</h2>
+        </div>
+        <div class="panel-body">
+          <!-- Add or replace images inside the roomX folder; below are placeholders -->
+          <div class="gallery">
+            <div class="placeholder">Room photo 1</div>
+            <div class="placeholder">Room photo 2</div>
+            <div class="placeholder">Room photo 3</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" style="margin-top:18px;">
+        <div class="panel-header">
+          <h2>Notes</h2>
+        </div>
+        <div class="panel-body">
+          <!-- Add any additional information, lab rules, or booking instructions here. -->
+          <p class="muted">This is a template. Duplicate this file for new rooms (e.g., room7.html) and update names, numbers, and image paths.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Department of Computer Science. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

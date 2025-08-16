@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Department homepage with rooms and labs." />
+  <title>Department – Home</title>
+  <!-- Google Fonts: Change to Open Sans if preferred -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./" class="brand">
+        <!-- Replace logo.png with your department logo (assets/images/logo.png) -->
+        <img src="assets/images/logo.png" alt="Department Logo" class="brand-logo" />
+        <!-- Replace text with your department name -->
+        <span class="brand-name">Department of Computer Science</span>
+      </a>
+      <!-- Optional: Add right-side links if needed -->
+      <nav class="top-nav" aria-label="Main navigation">
+        <!-- <a href="#">About</a> <a href="#">Contact</a> -->
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Explore Our Labs & Rooms</h1>
+        <p class="hero-subtitle">Modern facilities supporting learning, research, and collaboration.</p>
+      </div>
+    </section>
+
+    <section class="rooms-grid-section">
+      <div class="container">
+        <h2 class="section-title">Rooms & Labs</h2>
+        <div class="grid cards">
+          <!-- Card 1: Update title/number and destination if you rename the file -->
+          <a class="card room-card" href="rooms/room1.html">
+            <div class="card-body">
+              <h3 class="card-title">Programming Lab <span class="badge">Room 101</span></h3>
+              <p class="card-text">Equipped for hands-on coding sessions and practicals.</p>
+            </div>
+          </a>
+
+          <a class="card room-card" href="rooms/room2.html">
+            <div class="card-body">
+              <h3 class="card-title">Networks Lab <span class="badge">Room 102</span></h3>
+              <p class="card-text">Networking devices and simulation tools for labs.</p>
+            </div>
+          </a>
+
+          <a class="card room-card" href="rooms/room3.html">
+            <div class="card-body">
+              <h3 class="card-title">Electronics Lab <span class="badge">Room 201</span></h3>
+              <p class="card-text">Circuit kits, sensors, and testing equipment.</p>
+            </div>
+          </a>
+
+          <a class="card room-card" href="rooms/room4.html">
+            <div class="card-body">
+              <h3 class="card-title">AI/ML Lab <span class="badge">Room 202</span></h3>
+              <p class="card-text">Workstations for machine learning and data science.</p>
+            </div>
+          </a>
+
+          <a class="card room-card" href="rooms/room5.html">
+            <div class="card-body">
+              <h3 class="card-title">Seminar Hall <span class="badge">Room 301</span></h3>
+              <p class="card-text">Talks, presentations, and department events.</p>
+            </div>
+          </a>
+
+          <a class="card room-card" href="rooms/room6.html">
+            <div class="card-body">
+              <h3 class="card-title">Project Lab <span class="badge">Room 302</span></h3>
+              <p class="card-text">Space for final-year and research projects.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Department of Computer Science. All rights reserved.</p>
+      <!-- You can add address/contact info here -->
+    </div>
+  </footer>
+
+  <script>
+    // Update year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

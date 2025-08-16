@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Room details and facilities." />
+  <title>Room – Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="brand">
+        <img src="../assets/images/logo.png" alt="Department Logo" class="brand-logo" />
+        <span class="brand-name">Department of Computer Science</span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="../index.html">Home</a> · <span>Room Name</span>
+      </div>
+
+      <div class="room-header">
+        <h1 class="room-title">Data Science Lab <span class="badge">Room 201</span></h1>
+        <p class="room-meta">Faculty in charge: <strong>Dr. Jane Doe</strong> · Capacity: <strong>40</strong></p>
+      </div>
+
+      <div class="room-layout">
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Equipment</h2>
+          </div>
+          <div class="panel-body">
+            <ul class="list">
+              <li>High-performance desktops with Python/R</li>
+              <li>Projector and audio system</li>
+              <li>Wi‑Fi and LAN connectivity</li>
+              <li>Whiteboard and markers</li>
+            </ul>
+          </div>
+        </section>
+
+        <aside class="panel">
+          <div class="panel-header">
+            <h2>Timetable</h2>
+          </div>
+          <div class="panel-body">
+            <div class="placeholder small">Upload timetable image to <em>assets/images/roomX/</em></div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="panel" style="margin-top:18px;">
+        <div class="panel-header">
+          <h2>Gallery</h2>
+        </div>
+        <div class="panel-body">
+          <div class="gallery">
+            <div class="placeholder">Room photo 1</div>
+            <div class="placeholder">Room photo 2</div>
+            <div class="placeholder">Room photo 3</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" style="margin-top:18px;">
+        <div class="panel-header">
+          <h2>Notes</h2>
+        </div>
+        <div class="panel-body">
+          <p class="muted">This is a template. Duplicate this file for new rooms.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Department of Computer Science. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

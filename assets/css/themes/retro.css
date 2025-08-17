@@ -1,0 +1,13 @@
+/* Retro theme overrides */
+/* How to use: include after base style.css on a page */
+
+body { background: #fffaf0; }
+.brand-name, .section-title, .room-title { font-weight: 700; color: #0a5a7d; }
+.card, .panel { border-radius: 6px; box-shadow: 0 4px 0 #caa56a; border-color: #e1c699; }
+.badge { background: #fff1cc; color: #7a4b00; border-color: #d7a83b; }
+.site-header { background: #fffaf0e6; }
+.hero { background: linear-gradient(180deg, rgba(202,165,106,0.08), rgba(255,250,240,0)); }
+
+/* Retro accent links */
+a { color: #7a4b00; }
+a:hover { color: #0a5a7d; }

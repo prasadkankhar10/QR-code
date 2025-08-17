@@ -1,0 +1,17 @@
+/* Glassmorphism theme overrides */
+/* Use with a vibrant background and frosted cards */
+
+body { 
+  background: linear-gradient(135deg, #004d73 0%, #00a3c4 100%);
+}
+.site-header { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.15); }
+.card, .panel { 
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(255,255,255,0.25);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  color: #083344;
+}
+.brand-name, .room-title { color: #e6f6ff; }
+.badge { background: rgba(255,255,255,0.2); color: #083344; border-color: rgba(255,255,255,0.35); }
+.site-footer { background: rgba(0,0,0,0.2); color: #e6f6ff; border-top-color: rgba(255,255,255,0.2); }

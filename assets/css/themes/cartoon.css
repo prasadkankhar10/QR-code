@@ -1,0 +1,9 @@
+/* Illustration-based / Cartoonish theme overrides */
+
+body { background: #ffe; }
+.site-header { background: #fff7d1; border-bottom-color: #f4e6a3; }
+.card, .panel { border: 2px solid #333; border-radius: 18px; box-shadow: 6px 6px 0 #333; background: #fff; }
+.brand-logo { border: 3px solid #333; border-radius: 12px; }
+.brand-name, .room-title { color: #004d73; }
+.badge { background: #c2f0ff; border: 2px solid #333; color: #004d73; }
+.hero { background: linear-gradient(180deg, #c2f0ff55, #fff0); }

@@ -1,0 +1,9 @@
+/* Dark/Cyberpunk theme overrides */
+
+body { background: radial-gradient(1200px 600px at 10% 10%, #0b1020, #06080f); color: #e2e8f0; }
+.site-header { background: rgba(6, 8, 15, 0.7); border-bottom-color: #1f2937; }
+.card, .panel { background: rgba(17, 24, 39, 0.8); border-color: #334155; box-shadow: 0 0 0 1px #1f2937, 0 10px 30px rgba(0,255,255,0.08); }
+.brand-name, .section-title, .room-title { color: #67e8f9; text-shadow: 0 0 6px rgba(103,232,249,0.4); }
+.badge { background: rgba(103,232,249,0.15); color: #67e8f9; border-color: rgba(103,232,249,0.35); }
+.a, a { color: #f472b6; }
+a:hover { color: #a78bfa; }
